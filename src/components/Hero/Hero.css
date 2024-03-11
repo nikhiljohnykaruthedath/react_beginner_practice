@@ -1,0 +1,51 @@
+.hero {
+	display: flex;
+	height: calc(100vh - 72px);
+	align-items: center;
+}
+
+.hero__content {
+	display: flex;
+	flex-direction: column;
+	gap: 2em;
+}
+.hero__content__title {
+	font-size: 4em;
+	line-height: 102px;
+	font-weight: 800;
+}
+
+.hero__content__subtitle {
+	font-weight: 600;
+	color: var(--gray);
+	max-width: 400px;
+}
+
+.hero__content__button-list {
+	display: flex;
+	gap: 1em;
+}
+
+.hero__content__button-list__shop-now-button {
+	all: unset;
+	background-color: var(--red);
+	color: var(--white);
+	padding: 0.5em 1em;
+}
+
+.hero__content__button-list__category-button {
+	all: unset;
+	background-color: transparent;
+	color: var(--gray);
+	border: 2px solid var(--gray);
+	padding: 0.5em 1em;
+}
+
+.hero__content__available-stores__title {
+	margin-bottom: 1em;
+}
+
+.hero__content__available-stores__link-list {
+	display: flex;
+	gap: 1em;
+}

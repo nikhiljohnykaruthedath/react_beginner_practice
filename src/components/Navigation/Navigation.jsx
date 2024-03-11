@@ -1,4 +1,3 @@
-import React from "react";
 import "./Navigation.css";
 import brandLogo from "/public/images/brand_logo.png";
 
