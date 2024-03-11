@@ -1,0 +1,24 @@
+.container {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 72px;
+}
+
+.nav__items {
+	display: flex;
+	gap: 1em;
+	list-style: none;
+}
+
+.nav__button {
+	all: unset;
+	background-color: var(--red);
+	color: var(--white);
+	padding: 0.5em 1em;
+}
